@@ -50,6 +50,18 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
+    <Compile Include="Zad1.fs" />
+    <Compile Include="Zad2.fs" />
+    <Compile Include="Zad3.fs" />
+    <Compile Include="Zad4.fs" />
+    <Compile Include="Zad5.fs" />
+    <Compile Include="Zad6.fs" />
+    <Compile Include="Zad7.fs" />
+    <Compile Include="Zad8.fs" />
+    <Compile Include="Zad10.fs" />
+    <Compile Include="Zad12.fs" />
+    <Compile Include="Zad13.fs" />
+    <Compile Include="Zad14.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
