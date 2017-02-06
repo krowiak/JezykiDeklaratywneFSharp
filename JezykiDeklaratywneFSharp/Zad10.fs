@@ -1,7 +1,6 @@
 ﻿module Zad10
 
-// Szybka konwersja kodu z Haskella, który zapomniałem, jak działa, więc trzeba być czujnym
-let stopien xs =
+let stopien (xs : seq<bigint>) =
     let rowne xs' = Seq.truncate 10 xs' |> Seq.pairwise |> Seq.forall (fun (a,b) -> a = b)
     let roznice xs' = Seq.pairwise xs' |> Seq.map (fun (a,b) -> a - b)
     let rec stopien' xs' acc =
